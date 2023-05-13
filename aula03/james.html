@@ -3,12 +3,13 @@
 <head>
     <title>Consultoria James</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="./estilo/folha1.css" >
 </head>
 <body>
     <header>
         <h1>Consultoria <span>James</span></h1>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="#">Página Inicial</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Serviços</a></li>
@@ -19,43 +20,49 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="banner">
             <img src="./img/surf.png" alt="Surfista">
-            <h2>Serviços</h2>
-            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo mollitia cupiditate reprehenderit numquam doloribus deserunt.</small>
-        </section>
-        <section>
             <article>
+                <h2>Serviços</h2>
+                <small>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo mollitia cupiditate reprehenderit numquam doloribus deserunt.
+                </small>
+            </article>
+        </section>
+        <section class="portfolio">
+            <article class="box">
                 <h3>Serviços</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste quaerat hic voluptates odio iure.</p>
                 <button>Mais informação</button>
             </article>
-            <article>
+            <article class="box">
                 <h3>Projetos</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste quaerat hic voluptates odio iure.</p>
                 <button>Mais informação</button>
             </article>
-            <article>
+            
+            <article class="box">
                 <h3>Clientes</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste quaerat hic voluptates odio iure.</p>
                 <button>Mais informação</button>
             </article>
         </section>
-        <section>
-            <article>
-                <h2></h2>
-                <img src="./img/fig1.png" alt="Edifício">
-                <p></p>
+        <section class="motivacao fonte-preta">
+            <article class="col-2">
+                <h2>Conquiste o mundo</h2>
+                <img src="./img/fig1.png" alt="Edifício" class="float-left">
+                <p class="motivacao-texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi animi, labore vero quasi earum distinctio! Blanditiis a atque veritatis, harum corporis esse accusamus similique est nemo sed provident sunt voluptate!</p>
             </article>
-            <article>
-                <h2></h2>
-                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum magnam repellendus maiores molestias dolorum corporis debitis, sapiente velit quas aliquid, eveniet perferendis doloremque nobis nisi beatae. Mollitia dicta minima vero!
+            <article class="col-1">
+                <h2>Depoimento</h2>
+                <blockquote class="secao-secundaria">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum magnam repellendus maiores molestias dolorum corporis debitis, sapiente velit quas aliquid, eveniet perferendis doloremque nobis nisi beatae. Mollitia dicta minima vero!
                 </blockquote>
+                <cite>Samantha Jones, Gerente de projetoss</cite>
             </article>
         </section>
-        <footer>
+        <footer class="secao-secundaria">
             <nav>
-                <ul>
+                <ul class="menu">
                     <li><a href="#">Página Inicial</a></li>
                     <li><a href="#">Sobre</a></li>
                     <li><a href="#">Serviços</a></li>
@@ -71,7 +78,7 @@
             <p>&copy;2023 Consultoria James - Orgulhosamente desenvolvido por CEFET-RJ</p>
         </div>
         <div>
-            <ul>
+            <ul class="menu">
                 <li><a href="#"><i>Twitter</i></a></li>
                 <li><a href="#"><i>Facebook</i></a></li>
                 <li><a href="#"><i>Instagram</i></a></li>
