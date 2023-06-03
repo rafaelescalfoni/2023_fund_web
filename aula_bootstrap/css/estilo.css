@@ -1,0 +1,11 @@
+.jumbotron {
+    background-image: url(../img/vitrine.jpg);
+    background-size: cover;
+    background-position: center;
+    /*filter:brightness(1.75);(*/
+}
+
+.media {
+    border: solid 1px #aaa;
+    border-radius: 5px;
+}
